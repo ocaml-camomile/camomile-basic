@@ -1,3 +1,10 @@
-_build/
-.merlin
-*.install
+*.a
+*.cma
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.mar
+*.o
+*.opt
+*.swp
