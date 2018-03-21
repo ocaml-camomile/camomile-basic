@@ -1,0 +1,4 @@
+A Unicode library
+
+CamomileBasic is a basic Unicode library for OCaml.
+Camomile provides Unicode character type, UTF-8, UTF-16, UTF-32 strings and simple IOs.

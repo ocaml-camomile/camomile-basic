@@ -1,0 +1,19 @@
+(jbuild_version 1)
+
+;; Default config, overridden by the configure.ml script
+
+(alias
+ ((name mlis)
+  (deps (public/oOChannel.mli public/uChar.mli
+         public/uSet.mli public/uMap.mli public/uCharTbl.mli
+         public/unicodeString.mli public/uText.mli public/xString.mli
+         public/subText.mli public/uLine.mli public/locale.mli
+         public/uTF8.mli public/uTF16.mli public/uCS4.mli
+         public/charEncoding.mli))))
+
+(library
+ ((name camomileBasic)
+  (public_name camomileBasic)
+  (wrapped false)
+  (flags (-I lib :standard))
+  (libraries (bigarray))))
